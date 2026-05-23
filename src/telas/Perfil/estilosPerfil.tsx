@@ -1,0 +1,151 @@
+import { StyleSheet } from "react-native";
+import cores from "../../../utils/cores";
+
+const Styles = StyleSheet.create({
+  safe: {
+    flex: 1,
+    backgroundColor: cores.bgCream,
+  },
+  fundo: {
+    flex: 1,
+    backgroundColor: cores.bgCream,
+  },
+  scroll: {
+    flexGrow: 1,
+    paddingVertical: 20,
+    paddingHorizontal: 16,
+  },
+  titulo: {
+    fontFamily: "FonteBold",
+    fontSize: 26,
+    color: cores.brownDark,
+    textAlign: "center",
+    paddingTop: 6,
+  },
+  subtitulo: {
+    fontSize: 14,
+    color: cores.brownOrange,
+    textAlign: "center",
+    fontStyle: "italic",
+    paddingBottom: 18,
+  },
+  cameraWrapper: {
+    width: 240,
+    alignSelf: "center",
+    marginBottom: 18,
+    alignItems: "center",
+  },
+  camera: {
+    width: 240,
+    height: 240,
+    borderRadius: 12,
+    overflow: "hidden",
+    borderWidth: 3,
+    borderColor: cores.brownOrange,
+  },
+  cameraBotoes: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 10,
+    gap: 14,
+  },
+  botaoCamera: {
+    backgroundColor: cores.brownDark,
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  botaoCameraPrincipal: {
+    backgroundColor: cores.brownOrange,
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    borderWidth: 3,
+    borderColor: cores.brownDark,
+  },
+  previewContainer: {
+    alignItems: "center",
+    marginBottom: 18,
+  },
+  previewFoto: {
+    width: 240,
+    height: 240,
+    borderRadius: 12,
+    borderWidth: 3,
+    borderColor: cores.brownOrange,
+  },
+  botaoRefazer: {
+    flexDirection: "row",
+    backgroundColor: cores.brownDark,
+    borderRadius: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    marginTop: 10,
+    alignItems: "center",
+  },
+  containerPermissao: {
+    flex: 1,
+    backgroundColor: cores.bgCream,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 20,
+  },
+  mensagem: {
+    textAlign: "center",
+    color: cores.brownDark,
+    paddingBottom: 18,
+  },
+  botaoPermissao: {
+    backgroundColor: cores.brownOrange,
+    borderRadius: 8,
+    paddingHorizontal: 22,
+    paddingVertical: 10,
+  },
+  cardFormulario: {
+    backgroundColor: cores.white,
+    borderWidth: 2,
+    borderColor: cores.brownLight,
+    width: "100%",
+    alignSelf: "center",
+  },
+  rotulo: {
+    fontFamily: "FonteBold",
+    fontSize: 14,
+    color: cores.brownDark,
+    marginTop: 8,
+    marginBottom: 4,
+  },
+  input: {
+    fontFamily: "FonteRegular",
+    fontSize: 16,
+    color: cores.brownDark,
+    backgroundColor: cores.bgCream2,
+    borderWidth: 1,
+    borderColor: cores.brownLight,
+    borderRadius: 6,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    marginBottom: 6,
+  },
+
+  botaoSalvar: {
+    flexDirection: "row",
+    backgroundColor: cores.brownDark,
+    borderRadius: 8,
+    paddingHorizontal: 22,
+    paddingVertical: 10,
+    alignSelf: "flex-end",
+    alignItems: "center",
+  },
+  textoBotao: {
+    fontFamily: "FonteBold",
+    fontSize: 14,
+    color: cores.white,
+    textAlign: "center",
+  },
+});
+
+export default Styles;
