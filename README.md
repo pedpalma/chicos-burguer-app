@@ -54,6 +54,6 @@ npm start
 | Sobre Nós   | `index.html` (Sobre Nós) | `Image`, `Texto`, `expo-video` (loop + play)   |
 | Cardápio    | `pages/produtos.html`    | `FlatList`, Mocks, `Card`, `Modal`, `useState` |
 | Pedidos     | `pages/pedidos.html`     | `FlatList`, Mocks, `Card`, `Modal`, `useState` |
-| Perfil      | Atividade do PDF (p.75)  | `TextInput`, `expo-camera`, `Card`, `Alert`    |
+| Perfil      | `pages/perfil.html`      | `TextInput`, `expo-camera`, `Card`, `Alert`    |
 
 ---
