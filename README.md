@@ -1,8 +1,8 @@
-# appChicosBurguer
+# Chico's Burguer
 
 Aplicativo mobile da hamburgueria **Chico's Burguer**, desenvolvido em React Native + Expo como projeto da disciplina **Mobile I** (Faculdade SENAI - Campus São Caetano do Sul - Boa Vista 1.23).`
 
-## Estrutura de pastas (seguindo o app25TA)
+## Estrutura de pastas
 
 ```
 appChicosBurguer/
